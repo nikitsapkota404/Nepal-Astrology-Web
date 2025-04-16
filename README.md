@@ -1,2 +1,2 @@
 # Nepal-Astrology-Web
-Under Construction. Just Started!!!
+Under Construction. Just Started!!! (MERN)
