@@ -1,10 +1,12 @@
 import React from 'react';
 import Logo from './logo.js';
+import Navbar from './navbar.js';
 const Header = () => {
   return (
-    <header className="bg-white shadow-md p-4 flex justify-between items-center">
+    <header className="bg-yellow-100 shadow-md p-4 flex justify-between items-center">
       <Logo/>
-      <h1 className="text-2xl font-bold text-indigo-600 justify-center w-full  flex">NepalAstro</h1>
+      <Navbar/>
+      <button className='p-2 rounded-md border border-black-1'>Contact us</button>
     </header>
   );
 };

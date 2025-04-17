@@ -4,7 +4,9 @@ export const content = [
 export const theme = {
     extend: {
         fontFamily: {
+            handwritten: ['"Patrick Hand"', 'cursive'],
             Poppins: ['Poppins', 'sans-serif'],
+            cursive: ['"Pacifico"', 'cursive'],
           },
     },
 

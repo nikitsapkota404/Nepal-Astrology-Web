@@ -1,12 +1,12 @@
-
 import React from 'react';
+import Logo from './logo'; // Import the Logo component if you want to use it
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-blue-700">Nepal Astrology</h1>
-        <ul className="flex space-x-6">
+    <nav>
+      <div className="container mx-auto px-4 py-4  flex justify-center items-center gap-[0.2em] flex-col">
+     
+        <ul className="flex space-x-6  h-full p-6 gap-1">
           <li><a href="#" className="text-gray-700 hover:text-blue-600">Home</a></li>
           <li><a href="#" className="text-gray-700 hover:text-blue-600">Horoscope</a></li>
           <li><a href="#" className="text-gray-700 hover:text-blue-600">Birth Chart</a></li>
