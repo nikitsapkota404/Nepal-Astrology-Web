@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './logo'; // Import the Logo component if you want to use it
+import Logo from './logo'; 
 
 const Navbar = () => {
   return (
